@@ -120,6 +120,8 @@ TESTS_SHELL = test/ecdsa.sh \
               test/rsasign.sh \
               test/failload.sh \
               test/failwrite.sh \
+              test/rsasign_importtpm.sh \
+              test/rsasign_importtpmparent.sh \
               test/rsasign_parent.sh \
               test/rsasign_persistent.sh \
               test/rsasign_persistent_emptyauth.sh \
